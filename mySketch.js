@@ -63,7 +63,7 @@ function draw() {
 	text(contact, w2, h2+250);
 	stroke(shapeColor);
 	strokeWeight(2.5);
-	line(w2-240, 410, w2+95, 410);
+	line(w2-260, 410, w2+95, 410);
 	if (mouseX > w2-320 &&
 		  mouseX < w2-345){
 		shapeColor = (255, 255, 0);
