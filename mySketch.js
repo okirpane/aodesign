@@ -26,7 +26,8 @@ function preload(){
 }
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	var cnv = createCanvas(windowWidth, windowHeight);
+        cnv.style('display', 'block');
 	//background(255);
 	ellipseMode(CENTER);
 	noStroke();
